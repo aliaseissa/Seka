@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> التسجيل في المركز</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body dir="rtl">
+    <header><h1 id="h1id">التسجيل في المركز</h1></header>
+    <main>
+       <form>
+                <label for="">الاسم</label><br>
+        <input type="text" required name="name"><br>
+        <label for="">الايميل</label><br>
+        <input type="email" required name="email"><br>
+        <label>كلمة السر</label><br>
+        <input type="password" name="password"><br>
+        <label for="">تاريخ الميلاد</label><br>
+        <input type="date" required name="date" maxlength="01-01-1980" minlength="01-01-1980"><br>
+        <label for="">رقم الهاتف</label><br>
+        <input type="number" maxlength="10" required/><br>
+        <select  id="">
+            <option value="">اختيار النوع</option>
+            <option value="ذكر">ذكر</option>
+            <option value="انثى">انثى</option>
+        </select><br>
+        <button type="submit"><h1>التسجيل</h1></button>
+    </form>
+    </main>
+</body>
+</html>
